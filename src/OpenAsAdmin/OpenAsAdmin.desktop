@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Abrir como administrador
+GenericName[es]=Abrir como administrador
+GenericName[en]=Open in new window as admin
+Name[en]=Open in new window as admin
+Name[es]=Abrir como administrador
+X-DFM-MenuTypes=EmptyArea;
+Exec=pkexec --disable-internal-agent /usr/bin/dde-file-manager -n %u
+X-DFM-ExcludeMimeTypes=application/xml;
