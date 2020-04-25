@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=srm -vrz %U
+Name=Eliminar de forma permanente
+Type=Application
+X-DFM-MenuTypes=SingleFile;SingleDir;MultiFileDirs;

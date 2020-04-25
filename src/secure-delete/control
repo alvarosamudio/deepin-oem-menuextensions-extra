@@ -1,0 +1,7 @@
+Package: securedelete-dde-file-manager-menu-oem
+Version: 1.0
+Maintainer: Alvaro Samudio <alvarosamudio@criptext.com>
+Section: admin
+Architecture: all
+Priority: optional
+Description: OEM menu for deepin for secure deletion of files and folders
