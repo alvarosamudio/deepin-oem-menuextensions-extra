@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Application
+Name=Anonym
+Actions=StartAction;StopAction;ChangeIDAction;ChangeDNSAction;
+X-DFM-MenuTypes=EmptyArea;
+
+[Desktop Action StartAction]
+Icon=stock_media-play
+Name=Start
+Exec=pkexec --disable-internal-agent anonsurf start
+
+[Desktop Action StopAction]
+Icon=player_stop
+Name=Stop
+Exec=pkexec --disable-internal-agent anonsurf stop
+
+[Desktop Action ChangeIDAction]
+Icon=reload
+Name=Change ID
+Exec=pkexec --disable-internal-agent anonsurf changeid
+
+[Desktop Action ChangeDNSAction]
+Icon=network-server
+Name=OpenNIC DNS
+Exec=pkexec --disable-internal-agent anonsurf dns

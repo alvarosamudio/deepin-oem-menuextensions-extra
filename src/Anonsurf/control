@@ -1,0 +1,8 @@
+Package: anonsurf-dde-file-manager-menu-oem
+Version: 1.0
+Maintainer: Alvaro Samudio <alvarosamudio@criptext.com>
+Section: admin
+Architecture: all
+Priority: optional
+Depends: dde-file-manager, anonsurf (<=2.12.1)
+Description: OEM menu for deepin for anonsurf
