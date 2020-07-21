@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DIRECTIP=$(hostname -I | awk '{print $1}')
+
+notify-send -i network 'Compartir por HTTP' "La direccion es: http://$DIRECTIP:8000/"
+
+cd $1
+
+python -m SimpleHTTPServer
+
