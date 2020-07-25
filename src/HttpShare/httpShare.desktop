@@ -7,9 +7,9 @@ Actions=IniciarAction;DetenerAction;
 [Desktop Action IniciarAction]
 Icon=stock_media-play
 Name=Iniciar
-Exec=httpshare %U
+Exec=httpshare --start %U
 
 [Desktop Action DetenerAction]
 Icon=player_stop
 Name=Detener
-Exec=killall httpshare
+Exec=httpshare --stop
